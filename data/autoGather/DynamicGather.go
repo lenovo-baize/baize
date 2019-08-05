@@ -2,16 +2,16 @@ package autoGather
 
 import (
 	"fmt"
-	"baize/runmode/runmodestat"
+	"github.com/lenovo-baize/baize/runmode/runmodestat"
 	"os"
 	"strconv"
 	"strings"
 	"time"
 
-	"baize/config/datagatherCfg"
-	context "baize/context"
-	"baize/data/gather"
-	"baize/runmode/runmodedetect"
+	"github.com/lenovo-baize/baize/config/datagatherCfg"
+	context "github.com/lenovo-baize/baize/context"
+	"github.com/lenovo-baize/baize/data/gather"
+	"github.com/lenovo-baize/baize/runmode/runmodedetect"
 )
 
 //DynamicGatherKey 事件名称

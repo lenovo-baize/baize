@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	context "baize/context"
-	"baize/data/gather"
+	context "github.com/lenovo-baize/baize/context"
+	"github.com/lenovo-baize/baize/data/gather"
 )
 
 // DataReporter 数据上报者

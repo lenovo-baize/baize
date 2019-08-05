@@ -16,14 +16,14 @@ import (
 
 	serialize "github.com/ipfs/go-ipfs-config/serialize"
 
-	config "baize/config"
-	datagathercfg "baize/config/datagatherCfg"
-	download "baize/config/downloadCfg"
-	ipfscfg "baize/config/ipfsCfg"
-	context "baize/context"
-	"baize/data/autoGather"
-	"baize/runmode/runmodedetect"
-	"baize/runmode/runmodestat"
+	config "github.com/lenovo-baize/baize/config"
+	datagathercfg "github.com/lenovo-baize/baize/config/datagatherCfg"
+	download "github.com/lenovo-baize/baize/config/downloadCfg"
+	ipfscfg "github.com/lenovo-baize/baize/config/ipfsCfg"
+	context "github.com/lenovo-baize/baize/context"
+	"github.com/lenovo-baize/baize/data/autoGather"
+	"github.com/lenovo-baize/baize/runmode/runmodedetect"
+	"github.com/lenovo-baize/baize/runmode/runmodestat"
 )
 
 var syncConfigLock sync.Mutex

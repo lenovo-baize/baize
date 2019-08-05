@@ -1,9 +1,9 @@
 package config
 
 import (
-	datagather "baize/config/datagatherCfg"
-	download "baize/config/downloadCfg"
-	ipfs "baize/config/ipfsCfg"
+	datagather "github.com/lenovo-baize/baize/config/datagatherCfg"
+	download "github.com/lenovo-baize/baize/config/downloadCfg"
+	ipfs "github.com/lenovo-baize/baize/config/ipfsCfg"
 )
 
 //Config 白泽模块配置对象

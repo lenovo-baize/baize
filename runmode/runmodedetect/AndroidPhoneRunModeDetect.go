@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	"baize/context"
-	"baize/runmode/runmodestat"
+	"github.com/lenovo-baize/baize/context"
+	"github.com/lenovo-baize/baize/runmode/runmodestat"
 )
 
 //上一次的移动流量

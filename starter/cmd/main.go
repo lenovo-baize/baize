@@ -3,13 +3,13 @@ package main
 import (
 	"context"
 	"fmt"
-	"baize/starter/api"
+	"github.com/lenovo-baize/baize/starter/api"
 	"github.com/ipfs/go-ipfs-cmds"
 	"github.com/ipfs/go-ipfs-cmds/cli"
 	"os"
 
 	"github.com/ipfs/go-ipfs/repo/fsrepo"
-	"baize/ipfs/ipfsMain"
+	"github.com/lenovo-baize/baize/ipfs/ipfsMain"
 )
 
 func main() {

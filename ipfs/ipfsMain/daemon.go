@@ -1,8 +1,8 @@
 package ipfsmain
 
 import (
-	"baize/config/cfgmgr"
-	"baize/context"
+	"github.com/lenovo-baize/baize/config/cfgmgr"
+	"github.com/lenovo-baize/baize/context"
 	"errors"
 	_ "expvar"
 	"fmt"
@@ -20,7 +20,7 @@ import (
 	"github.com/ipfs/go-ipfs/core"
 	commands "github.com/ipfs/go-ipfs/core/commands"
 	coreapi "github.com/ipfs/go-ipfs/core/coreapi"
-	corehttp "baize/ipfs/corehttp"
+	corehttp "github.com/lenovo-baize/baize/ipfs/corehttp"
 	corerepo "github.com/ipfs/go-ipfs/core/corerepo"
 	libp2p "github.com/ipfs/go-ipfs/core/node/libp2p"
 	nodeMount "github.com/ipfs/go-ipfs/fuse/node"

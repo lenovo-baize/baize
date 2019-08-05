@@ -1,8 +1,8 @@
 package autoGather
 
 import (
-	datagathercfg "baize/config/datagatherCfg"
-	"baize/context"
+	datagathercfg "github.com/lenovo-baize/baize/config/datagatherCfg"
+	"github.com/lenovo-baize/baize/context"
 )
 
 //PeriodParamKey 定时采集的定时配置项key

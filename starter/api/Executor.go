@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"baize/context"
-	"baize/data/gather"
-	"baize/ipfs/ipfsMain"
+	"github.com/lenovo-baize/baize/context"
+	"github.com/lenovo-baize/baize/data/gather"
+	"github.com/lenovo-baize/baize/ipfs/ipfsMain"
 )
 
 func reportStop(err error) {

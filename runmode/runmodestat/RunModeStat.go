@@ -4,7 +4,7 @@ import (
 	"container/list"
 	"time"
 
-	"baize/config/ipfsCfg"
+	"github.com/lenovo-baize/baize/config/ipfsCfg"
 )
 
 var RUN_MODE_SHARE = "share"

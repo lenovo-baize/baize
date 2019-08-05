@@ -1,7 +1,7 @@
 package downloadgather
 
 import (
-	"baize/runmode/runmodestat"
+	"github.com/lenovo-baize/baize/runmode/runmodestat"
 	"github.com/ipfs/go-cid"
 	"io"
 	"net/http"
@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	bzCtx "baize/context"
-	"baize/data/gather"
-	"baize/runmode/runmodedetect"
+	bzCtx "github.com/lenovo-baize/baize/context"
+	"github.com/lenovo-baize/baize/data/gather"
+	"github.com/lenovo-baize/baize/runmode/runmodedetect"
 )
 
 //DownloadData 下载打桩数据

@@ -9,9 +9,9 @@ import (
 	"time"
 
 	ipfs "github.com/ipfs/go-ipfs"
-	context "baize/context"
-	"baize/data/gather"
-	"baize/runmode/runmodestat"
+	context "github.com/lenovo-baize/baize/context"
+	"github.com/lenovo-baize/baize/data/gather"
+	"github.com/lenovo-baize/baize/runmode/runmodestat"
 )
 
 func (dataReporter *DataReporter) reviceData() {

@@ -4,7 +4,7 @@ import (
 	"container/list"
 	"context"
 	"fmt"
-	"baize/runmode/runmodestat"
+	"github.com/lenovo-baize/baize/runmode/runmodestat"
 	"os"
 	"path/filepath"
 	"strconv"
@@ -16,8 +16,8 @@ import (
 
 	"github.com/ipfs/go-ipfs/core"
 	gc "github.com/ipfs/go-ipfs/core/corerepo"
-	"baize/config"
-	"baize/data/gather"
+	"github.com/lenovo-baize/baize/config"
+	"github.com/lenovo-baize/baize/data/gather"
 )
 
 var StartingLock sync.Mutex

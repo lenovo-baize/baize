@@ -1,9 +1,9 @@
 package rummodedetect
 
 import (
-	"baize/context"
-	"baize/data/gather"
-	"baize/runmode/runmodestat"
+	"github.com/lenovo-baize/baize/context"
+	"github.com/lenovo-baize/baize/data/gather"
+	"github.com/lenovo-baize/baize/runmode/runmodestat"
 	"fmt"
 	"os"
 	"sync"

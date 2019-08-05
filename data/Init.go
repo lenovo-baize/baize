@@ -3,10 +3,10 @@ package data
 import (
 	// "fmt"
 
-	context "baize/context"
-	"baize/data/autoGather"
-	"baize/data/gather"
-	"baize/data/reporter"
+	context "github.com/lenovo-baize/baize/context"
+	"github.com/lenovo-baize/baize/data/autoGather"
+	"github.com/lenovo-baize/baize/data/gather"
+	"github.com/lenovo-baize/baize/data/reporter"
 )
 
 //Init 初始化数据上报模块

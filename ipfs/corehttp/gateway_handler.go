@@ -1,7 +1,7 @@
 package corehttp
 
 import (
-	"baize/data/downloadGather"
+	"github.com/lenovo-baize/baize/data/downloadGather"
 	"context"
 	"fmt"
 	"io"

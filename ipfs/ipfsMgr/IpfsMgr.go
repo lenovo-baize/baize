@@ -7,8 +7,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"baize/context"
-	"baize/ipfs/ipfsMain"
+	"github.com/lenovo-baize/baize/context"
+	"github.com/lenovo-baize/baize/ipfs/ipfsMain"
 )
 
 //StartIpfs 启动ipfs

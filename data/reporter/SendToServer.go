@@ -9,7 +9,7 @@ import (
 	"os"
 	"time"
 
-	context "baize/context"
+	context "github.com/lenovo-baize/baize/context"
 )
 
 func (dataReporter *DataReporter) sendToServer() {
